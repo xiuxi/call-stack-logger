@@ -33,7 +33,7 @@
 build/*
 
 # IDE specific dirs
-.vscode
+# .vscode
 
 # Project specific
 src/gccdump.s
