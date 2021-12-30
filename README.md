@@ -15,6 +15,9 @@ It is required in order to get access to BFD (Binary File Descriptor
 library) necessary to get information about object files and manipulate them.
 
 ```bash
+sudo su
+apt update
+apt install binutils-dev
 sudo apt-get install binutils-dev
 ```
 
