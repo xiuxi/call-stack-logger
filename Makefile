@@ -10,6 +10,7 @@ subdirs:
 	for dir in $(SUBDIRS); do \
 	   $(MAKE) -C $$dir; \
 	done
+	$(EXECUTABLE)
 
 makedirs: $(ODIR)
 
